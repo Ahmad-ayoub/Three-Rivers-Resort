@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Hotels Resort</title>
+
+    <link rel="stylesheet" href="three_hotels_mainpage_styles.css" />
+  </head>
+
+  <!--<img src="Hotel_image.jpg" alt="Hotel_image" />-->
+
+  <body>
+    <main>
+      <h1 style="text-align: center; margin-bottom: 5%; margin-top: 25%">
+        Three Rivers Resort
+      </h1>
+      <h2 style="text-align: center; margin-bottom: 5%">
+        Pittsburgh's Finest Luxury Vacation Destination
+      </h2>
+
+      <form>
+        <div>
+          <div style="justify-content: space-between; display: flex">
+            <text for="name" class="text_style">First Name:</text>
+
+            <text for="name" class="text_style">Last Name:</text>
+
+            <text for="name" class="text_style">Email:</text>
+
+            <text for="name" class="text_style">Address:</text>
+          </div>
+
+          <div
+            style="
+              justify-content: space-between;
+              display: flex;
+              margin-bottom: 5%;
+            "
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              minlength="3"
+              maxlength="50"
+              required
+              title="Please fill out this field"
+              class="input_style"
+            />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              minlength="3"
+              maxlength="50"
+              required
+              title="Please fill out this field"
+              class="input_style"
+            />
+            <input
+              type="email"
+              id="name"
+              name="name"
+              minlength="3"
+              maxlength="50"
+              required
+              title="Please fill out this field"
+              class="input_style"
+            />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              minlength="3"
+              maxlength="50"
+              required
+              title="Please fill out this field"
+              class="input_style"
+            />
+          </div>
+        </div>
+
+        <div style="display: flex; text-align: center; justify-content: center">
+          <text for="number" class="text_style_2">Rooms:</text>
+
+          <text for="number" class="text_style_2">Adults:</text>
+
+          <text for="number" class="text_style_2">Nights:</text>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-bottom: 5%;
+          "
+        >
+          <select
+            id="number"
+            name="number"
+            required
+            title="Please select one of the options"
+            class="select_style"
+          >
+            <option value="">Select Number of Rooms</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          <select
+            id="number"
+            name="number"
+            required
+            title="Please select one of the options"
+            class="select_style"
+          >
+            <option value="">Select Number of Adults</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select
+            id="number"
+            name="number"
+            required
+            title="Please select one of the options"
+            class="select_style"
+          >
+            <option value="">Select Number of Nights</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+        </div>
+
+        <button type="submit" style="margin-left: 44%; height: 3vh">
+          Confirm Reservation
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

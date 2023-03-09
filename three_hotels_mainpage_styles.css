@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(Hotel_image.jpg);
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  z-index: 1;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 61%;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+text {
+  color: white;
+}
+
+.text_style {
+  position: relative;
+  width: 20%;
+}
+
+.input_style {
+  position: relative;
+  width: 20%;
+  height: 25px;
+}
+
+.text_style_2 {
+  position: relative;
+  width: 45%;
+}
+
+select {
+  position: relative;
+  width: 18%;
+  justify-content: space-around;
+  display: flex;
+  height: 3vh;
+}
